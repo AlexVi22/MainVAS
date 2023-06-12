@@ -23,7 +23,7 @@
       <td>
       <ol>
         <li>
-            Manager set target value of basket cost for Delivery fee discount on Delivery platform
+            Manager set minimal target value of basket cost for Delivery fee discount on Delivery platform
         </li>
         <li>
             Manager set values in discount grid on Delivery platform
@@ -75,7 +75,7 @@
       <td>
       <ol>
         <li>
-            A Manager set a target value of basket cost for the discount on the Delivery platform
+            Manager set minimal target value of basket cost for the discount on the Delivery platform
         </li>
         <li>
             Manager set values in discount grid on Delivery platform

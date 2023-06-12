@@ -1,0 +1,10 @@
+@startuml
+entity "DiscountGrid"
+{
+    *Id : guid <<generated>>
+    --
+    TargetCost : int
+    Discount : byte
+    Minimal : boolean
+}
+@enduml

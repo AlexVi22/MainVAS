@@ -13,7 +13,7 @@
     <tr>
       <td>DD-1.1-1</td>
       <td>Settings for the discount</td>
-      <td>User with Manager role must gets opportunity set up Target value of basket cost for Delivery fee discount, discount grid on Delivery Platform. Discount grid contains from values the settings above which correlates each other - if basket cost more then discount more. Max value of Delivery fee discount = 100%</td>
+      <td>User with Manager role must gets opportunity set up Target value of basket cost for Delivery fee discount, discount grid on Delivery Platform. Discount grid contains from values the settings above which are correlate each other - if basket cost more then discount more. Max value of Delivery fee discount = 100%</td>
     </tr>
     <tr>
       <td>DD-1.1-2</td>
