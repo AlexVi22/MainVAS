@@ -1,30 +1,20 @@
 @startuml
-title "Increase Basket Cost Value \n by Providing Delivery Fee Discount"
-|User|
+title "Increase Basket cost value \n by providing Delivery fee discount"
+|Customer|
 start
 :Add items in Basket;
-|System|
-repeat :Calculates Basket \n Cost Amount;
-if (Basket Cost Amount) is (less n) then
-note left
-    The System has variable "n" 
-    from that it will be started 
-    Delivery fee Discount
-end note
-else (more n)
-:Calculates \n Delivery fee \n Discount;
-if (Delivery fee \n Discount = 100%)) is (yes) then
+|Delivery platform|
+repeat :Calculates Basket \n cost amount;
+if (Basket cost amount \n less target value \n for discount) is (yes) then
+else (no)
+:Calculates \n Delivery fee \n discount;
+if (Delivery fee discount \n is max value) is (yes) then
 stop
 else (no)
 endif
 endif
-:Suggest to User \n add new items;
-note right 
-    The User is able to
-    skip the step 
-    or add new items
-end note
-|User|
-repeat while (New items) is (Added) not (Skiped)
+:Suggest to Customer \n increase Basket \n cost amount ;
+|Customer|
+repeat while (Basket \n changed) is (Yes) not (No)
 stop
 @enduml
